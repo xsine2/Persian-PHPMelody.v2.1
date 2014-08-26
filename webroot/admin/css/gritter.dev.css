@@ -1,0 +1,146 @@
+/* ie6 trash */
+* html #gritter-notice-wrapper {
+	position:absolute; 
+}
+* html .gritter-top {
+	margin-bottom: 5px;
+}
+* html .gritter-item {
+	padding-bottom: 2px;
+	background-image: none;
+	color:#eee;
+	padding: 20px 11px;
+	font-size: 11px;
+	font-family:verdana;
+}
+* html .gritter-top {
+	background-image: none;
+	background-repeat:no-repeat;
+	background-position:top left;
+	height:10px;
+}
+* html .hover .gritter-top {
+	background-position:top right;
+}
+* html .gritter-bottom {
+	background-image: none;
+	height:1px;
+	margin:0;
+}
+* html .gritter-close {
+	background:url(../img/gritter-close-ie6.gif);
+	width:22px;
+	height:22px;
+	position:absolute;
+	top:7px;
+	left: 265px;
+}
+/* the norm */
+#gritter-notice-wrapper {
+	position:fixed;
+	top:60px;
+	right:20px;
+	width:301px;
+	z-index:9999;
+}
+.gritter-item-wrapper {
+	position:relative;
+	margin:0 0 10px 0;
+
+}
+.gritter-top {
+	background-image:url(../img/gritter-top.png);
+	background-repeat:no-repeat;
+	background-position:top left;
+	height:10px;
+}
+.hover .gritter-top {
+	background-position:top right;
+}
+.gritter-bottom {
+	background-image:url(../img/gritter-bottom.png);
+	background-repeat:no-repeat;
+	background-position:top left;
+	height:8px;
+	margin:0;
+}
+.hover .gritter-bottom {
+	background-position: top right;
+}
+.gritter-item {
+	display:block;
+	background-image:url(../img/gritter-bg-tile.png);
+	background-repeat:repeat-y;
+	background-position:top left;
+	color:#eee;
+	padding:2px 11px 8px 11px;
+	font-size: 12px;
+	font-family: "Open Sans", Verdana, Arial, Helvetica, sans-serif;
+}
+.hover .gritter-item {
+	background-position:top right;
+}
+.gritter-item p {
+	padding:0;
+	margin:0;
+	font-size: 11px !important;
+	line-height: 1.4em;
+}
+.gritter-close {
+	position:absolute;
+	top:-13px;
+	left: 250px;
+	background:url(../img/gritter-close.png);
+	cursor:pointer;
+	width:30px;
+	height:30px;
+}
+.gritter-title {
+	font-size:14px;
+	font-weight:bold;
+	line-height: 1.2em;
+	padding:2px 0 10px;
+	display:block;
+	text-shadow: 0 1px 0 #111; /* Not supported by IE :( */
+}
+.nottype,
+.nottypered,
+.nottypeblue,
+.nottypegreen {
+	display: block;
+	position: absolute;
+	top: 20px;
+	left: 17px;
+/*	border-left: 3px solid #e2514c;	
+*/	
+}
+/*.nottypeblue {
+border-left: 3px solid #4c9fe2;
+}
+.nottypegreen {
+border-left: 3px solid #5ed071;
+}
+.nottypered {
+border-left: 3px solid #e2514c;
+}*/
+.gritter-ico {
+	position: absolute;
+	display: block;
+	top: 28%;
+	left: 34%;
+}
+.gritter-with-image,
+.gritter-without-image {
+	padding:0 0 5px 0;
+}
+.gritter-with-image {
+	width:230px;
+	float:right;
+}
+.gritter-item a {
+	color: #FC0;
+}
+.gritter-item a:hover {
+	color: #FFFF66;
+	text-decoration: underline
+}
