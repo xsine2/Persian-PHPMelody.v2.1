@@ -2,13 +2,13 @@
 
 //-- MySQL Settings --//
 /** MySQL database name */
-$db_name = 'exe.ir';
+$db_name = 'phpmelody';
 
 /** MySQL database username */
 $db_user = 'root';
 
 /** MySQL database password */
-$db_pass = '';
+$db_pass = 'buddycom';
 
 /** MySQL hostname */
 $db_host = 'localhost';
